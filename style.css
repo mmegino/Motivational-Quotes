@@ -1,0 +1,45 @@
+body {
+    background: bisque;
+    min-height: 20vh;
+    text-align: center;
+    padding: 3rem;
+}
+
+.container {
+    background: blanchedalmond;
+    width: 85vw;
+    padding: 40px;
+    height: 55vh;
+    border: 1rem solid black;
+}
+
+.quote-text {
+    min-height: 20vh;
+}
+
+.container h1 {
+    font-size: 50px;
+    text-align: left;
+}
+
+.container p {
+    text-transform: capitalize;
+    text-align: right;
+    font-style: inherit;
+    font-size: 30px;
+}
+
+#btn {
+    margin-top: 30px;
+    font-size: 25px;
+    padding: 10px 20px;
+    background: pink;
+    color: black;
+    text-transform: uppercase;
+    
+}
+
+#btn:hover {
+    color: blue;
+    background: yellow;
+}
